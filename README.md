@@ -128,6 +128,3 @@ The system handles errors gracefully by returning appropriate HTTP status codes.
 ## 11. Additional Features
 - **Logging**:
   Spring AOP logs the execution time of controller methods, offering insights into performance.
-
-## Conclusion
-This documentation provides an overview of the system architecture, setup instructions, and key functionalities. For further details or contributions, refer to the repository's README.md or contact the project maintainers.
