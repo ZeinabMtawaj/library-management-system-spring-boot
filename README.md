@@ -30,7 +30,7 @@ This project is a Library Management System API built using Spring Boot. It allo
 ## 3. Setup and Installation
 
 ### Clone the Repository
-```bash
+
 git clone https://github.com/ZeinabMtawaj/library-management-system.git
 cd library-management-system
 Configure the Database
@@ -44,8 +44,7 @@ Make sure you have Maven installed, and run:
 
 mvn clean install
 Run the Application
-bash
-Copy code
+
 mvn spring-boot:run
 ## 4. Running the Application
 Once the application is running, it will be accessible at:
