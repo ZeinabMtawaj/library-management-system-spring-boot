@@ -31,14 +31,18 @@ This project is a Library Management System API built using Spring Boot. It allo
 
 ### Clone the Repository
 
+```bash
 git clone https://github.com/ZeinabMtawaj/library-management-system.git
 cd library-management-system
+
 Configure the Database
 Update the application.properties file with the appropriate database settings:
 
+```bash
 spring.datasource.url=jdbc:postgresql://localhost:5432/library
 spring.datasource.username=test
 spring.datasource.password=test
+
 Build the Project
 Make sure you have Maven installed, and run:
 
