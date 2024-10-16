@@ -31,14 +31,13 @@ This project is a Library Management System API built using Spring Boot. It allo
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/ZeinabMtawaj/library-management-system.git
 cd library-management-system
 
 Configure the Database
 Update the application.properties file with the appropriate database settings:
 
-```bash
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/library
 spring.datasource.username=test
 spring.datasource.password=test
@@ -49,12 +48,15 @@ Make sure you have Maven installed, and run:
 mvn clean install
 Run the Application
 
+
 mvn spring-boot:run
 ## 4. Running the Application
 Once the application is running, it will be accessible at:
 
+
 http://localhost:8080
 When the application starts, two default user accounts will be created if they weren't already present:
+
 
 Admin:
 Username: admin
@@ -62,6 +64,7 @@ Password: admin
 Librarian:
 Username: librarian
 Password: librarian
+
 ## 5. API Endpoints
 User Management (Admin Only)
 POST /api/users – Create a new user
@@ -92,6 +95,8 @@ DELETE /api/patrons/{id} – Remove a patron
 Borrowing Records (Admin and Librarian)
 POST /api/borrow/{bookId}/patron/{patronId} – Borrow a book
 PUT /api/return/{bookId}/patron/{patronId} – Return a borrowed book
+
+
 ## 6. Authentication and Authorization
 Users and Roles
 Admin: Has full access to all endpoints.
@@ -105,7 +110,7 @@ The application uses Spring's @Transactional annotation to ensure data integrity
 ## 8. Caching
 The system uses Ehcache to store frequently accessed data, improving performance and reducing load on the database.
 
-9. Testing
+## 9. Testing
 Unit tests are written using JUnit and Mockito.
 
 ## 10. Error Handling
