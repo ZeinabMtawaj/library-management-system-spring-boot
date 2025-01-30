@@ -2,18 +2,17 @@
 # Library Management System - Documentation
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
-- [Authentication and Authorization](#authentication-and-authorization)
-- [Transaction Management](#transaction-management)
-- [Caching](#caching)
-- [Testing](#testing)
-- [Error Handling](#error-handling)
-- [Additional Features](#additional-features)
-- [Conclusion](#conclusion)
+- [Introduction](#1-introduction)
+- [Technologies Used](#2-technologies-used)
+- [Setup and Installation](#3-setup-and-installation)
+- [Running the Application](#4-running-the-application)
+- [API Endpoints](#5-api-endpoints)
+- [Authentication and Authorization](#6-authentication-and-authorization)
+- [Transaction Management](#7-transaction-management)
+- [Caching](#8-caching)
+- [Testing](#9-testing)
+- [Error Handling](#10-error-handling)
+- [Additional Features](#11-additional-features)
 
 ## 1. Introduction
 This project is a Library Management System API built using Spring Boot. It allows librarians and administrators to manage books, patrons, and borrowing records efficiently. This document outlines how to set up the system, interact with the API endpoints, and utilize the security features implemented.
